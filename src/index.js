@@ -4,8 +4,7 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import { App } from "./App";
 import { BrowserRouter, Route } from "react-router-dom";
-import { SignIn } from "./SignIn";
-import { SignUp } from "./SignUp";
+import { SignIn, SignUp } from "./Authentication";
 
 ReactDOM.render(
   <BrowserRouter>
